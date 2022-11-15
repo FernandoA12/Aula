@@ -1,37 +1,38 @@
 <html>
-<head>
-  <title>Aula 01 - Html Básico e CSS</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <head>
+    <title>Aula 01 - Html Básico e CSS</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  </head>
 
-</head>
+  <div class="formulario bg-gradient-to-r from-neutral-600">
+    <h2 class="text-3xl">Cadastro de usuario</h2>
 
+    <form>
+      <label for="NomeCompleto">Nome Completo</label>
+      <input
+        type="text"
+        alt="Nome completo"
+        placeholder="Nome completo"
+        class="text-base rounded-xl"
+        id="NomeCompleto"
+      />
 
-<div>
+      <label for="RG">RG</label>
+      <input
+        type="text"
+        alt="RG"
+        placeholder="Número do RG"
+        class="text-base rounded-xl"
+      />
 
-</div>
-
-
-<div class="formulario bg-gradient-to-r from-neutral-600">
-
-  <h2 class="text-3xl">Cadastro de usuario</h2>
-  
-  <form>
-
-    <label for="NomeCompleto">Nome Completo</label><br>
-      <input type="text" alt="Nome completo" placeholder="Nome completo" class="text-base rounded-xl" /><br>
-
-    <label for="RG">RG</label><br>
-      <input type="text" alt="RG" placeholder="Número do RG" class="text-base rounded-xl" /><br>
-    
-    <label for="email">Email</label><br>
-  <input type="email" alt="email" placeholder="Email" class="text-base rounded-xl" /><br>
-  </form>
-
-
-  
-</div>
-
-
-
+      <label for="email">Email</label>
+      <input
+        type="email"
+        alt="email"
+        placeholder="Email"
+        class="text-base rounded-xl"
+      />
+    </form>
+  </div>
 </html>
